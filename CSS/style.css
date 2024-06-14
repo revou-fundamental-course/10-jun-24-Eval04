@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+   background-color: black;
+   color: white;
+}
+
+textarea{
+    resize: none;
+    font-family: math;
+    font-size: smaller;
+}
+
+h4{
+    margin-block: auto;
+}
