@@ -1,15 +1,83 @@
-header{
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(217, 191, 157);
+    justify-content: center;
+    margin: auto;
+    /* max-width:max-content */
+}
+
+header {
     text-align: center;
-   background-color: black;
-   color: white;
+    margin-bottom: 20px;
+    background-color: black;
+    color: whitesmoke;
 }
 
-textarea{
+.content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: left;
+    margin: auto;
+}
+
+p {
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
     resize: none;
-    font-family: math;
-    font-size: smaller;
 }
 
-h4{
-    margin-block: auto;
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#toggleExplanation {
+    display: block;
+    margin-top: 20px;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+article {
+    display: none;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+footer{
+   text-align: center;
+   height: 100px;
+   background: rgb(217, 191, 157);
 }
